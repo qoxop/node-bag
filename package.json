@@ -1,12 +1,18 @@
 {
   "name": "node-bag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "我的 node.js 常用函数库",
   "main": "index.js",
-  "keywords": ["node", "utils"],
+  "keywords": [
+    "node",
+    "utils"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^2.4.4"
+  }
 }
